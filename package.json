@@ -1,7 +1,7 @@
 {
-  "name": "template",
+  "name": "battleship",
   "version": "1.0.0",
-  "description": "a template",
+  "description": "battleship game using Javascript with practicing TDD",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",

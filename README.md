@@ -1,3 +1,3 @@
-# template
+# Battleship
 
-a template
+Battleship Game using Javascript
