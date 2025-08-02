@@ -4,7 +4,7 @@
   "description": "battleship game using Javascript with practicing TDD",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "start": "webpack serve --open --config webpack.dev.js",
     "build": "webpack --config webpack.prod.js"
   },
@@ -12,10 +12,13 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@babel/core": "^7.28.0",
+    "@babel/preset-env": "^7.28.0",
     "@eslint/css": "^0.9.0",
     "@eslint/js": "^9.29.0",
     "@eslint/json": "^0.12.0",
     "@eslint/markdown": "^6.6.0",
+    "babel-jest": "^30.0.5",
     "css-loader": "^7.1.2",
     "csv-loader": "^3.0.5",
     "eslint": "^9.29.0",
@@ -27,6 +30,7 @@
     "globals": "^16.2.0",
     "html-loader": "^5.1.0",
     "html-webpack-plugin": "^5.6.3",
+    "jest": "^30.0.5",
     "prettier": "^3.6.1",
     "style-loader": "^4.0.0",
     "typescript-eslint": "^8.35.0",
